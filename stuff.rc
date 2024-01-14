@@ -1,0 +1,37 @@
+/*-----------------------------------------------------------------------*/
+ #include <windows.h>
+/*-----------------------------------------------------------------------*/
+
+ 1000 ICON                             "c:/www/xdosh/server/favicon.ico"
+ 1001 ICON                             "c:/www/xdosh/server/x0.ico"
+ 1002 ICON                             "c:/www/xdosh/server/x1.ico"
+
+
+ VS_VERSION_INFO                       VERSIONINFO
+ FILEVERSION                           0,0,0,1
+ PRODUCTVERSION                        0,0,0,1
+ FILEFLAGSMASK                         VS_FFI_FILEFLAGSMASK
+ FILEFLAGS                             VS_FF_PRERELEASE
+ FILEOS                                VOS__WINDOWS32
+ FILETYPE                              VFT_APP
+ FILESUBTYPE                           VFT2_UNKNOWN
+
+ BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+ BLOCK "000004b0"
+ BEGIN
+ VALUE "ProductName",                  "WeSoSe Server"
+ VALUE "ProductVersion",               "0,0,0,1"
+ VALUE "FileDescription",              ""
+ VALUE "FileVersion",                  "0,0,0,1"
+ VALUE "CompanyName",                  "Apakian Pty.Ltd"
+ VALUE "LegalCopyright",               "Apakian Pty.Ltd"
+ VALUE "Comments",                     "Developed by Ashod Apakian"
+ END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+ VALUE "Translation",                  0x000,0x4b0
+ END
+ END
